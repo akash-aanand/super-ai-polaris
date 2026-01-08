@@ -1,0 +1,51 @@
+{
+  "company": "Super AI Polaris Pvt. Ltd.",
+  "cin": "U72900DL2020PTC372592",
+  "description": "Super AI Polaris works on domain-specific, scalable AI solutions, especially in education and governance. As an AICTE Corporate Partner, it bridges the gap between academia and industry.",
+  "founders_team": [
+    {
+      "name": "Rajat Sahai",
+      "role": "Director",
+      "details": "Leadership & Strategy"
+    },
+    {
+      "name": "Swapnashree Rath",
+      "role": "Director",
+      "details": "Operations & Governance"
+    },
+    {
+      "name": "Sanjay Rajput",
+      "role": "Director",
+      "details": "Technology & Innovation"
+    },
+    {
+      "name": "Dhirendra Kumar Khandelwal",
+      "role": "Director",
+      "details": "Corporate Relations"
+    }
+  ],
+  "contacts": {
+    "email": "info@superaip.com",
+    "phone": "+91 85959 12427",
+    "alt_phone": "+91 85959 12425",
+    "address": "Taj Vivanta Hotel, Upper Ground Floor, Sector-21, Metro Station Complex, Dwarka, New Delhi, Delhi, India – 110075"
+  },
+  "mission": "To democratize AI education and provide industry-relevant skills to students across the globe through government-aligned initiatives.",
+  "vision": "To be the catalyst for the next generation of AI-ready workforce.",
+  "services": [
+    "AICTE Virtual Internships",
+    "Faculty Development Programs (FDP)",
+    "Enterprise AI Solutions",
+    "Corporate Training",
+    "LMS & AI Infrastructure"
+  ],
+  "associations": [
+    "AICTE (All India Council for Technical Education)",
+    "NEAT (National Educational Alliance for Technology)",
+    "Ministry of Education, Govt. of India"
+  ],
+  "extra": {
+    "industry_info": "EdTech / Artificial Intelligence / Workforce Development",
+    "partners": ["Google for Education", "AWS", "Microsoft"]
+  }
+}

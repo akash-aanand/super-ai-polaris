@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super AIP | AI for All</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+            },
+            colors: {
+              background: '#000000',
+              foreground: '#EDEDED',
+              muted: '#888888',
+              border: '#222222',
+              card: '#0A0A0A',
+              'card-hover': '#111111',
+              accent: '#C5A059', // Muted Gold
+              'accent-hover': '#D4AF37', // Brighter Gold
+            },
+            letterSpacing: {
+              tight: '-0.02em',
+            },
+            backgroundImage: {
+              'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+              'gold-glow': 'conic-gradient(from 180deg at 50% 50%, #C5A059 0deg, #000 180deg, #C5A059 360deg)',
+            },
+            keyframes: {
+              shine: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(100%)' }
+              },
+              scan: {
+                '0%': { transform: 'translateY(-100%)' },
+                '100%': { transform: 'translateY(100%)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #000000;
+        color: #EDEDED;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #222222;
+        border-radius: 4px;
+        border: 1px solid #000000;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #C5A059;
+      }
+      .glass-card {
+        background: rgba(10, 10, 10, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+      .preserve-3d {
+        transform-style: preserve-3d;
+      }
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      .backface-hidden {
+        backface-visibility: hidden;
+      }
+    </style>
+    <script>
+      // Polyfill process for browser environment to avoid ReferenceError
+      window.process = window.process || { env: { API_KEY: '' } };
+    </script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+<script type="module" src="/src/index.tsx"></script></body>
+</html>
